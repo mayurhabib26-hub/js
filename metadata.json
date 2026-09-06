@@ -1,0 +1,6 @@
+{
+  "name": "JS Alpha Interiors",
+  "description": "JS Alpha Interiors creates sophisticated residential and commercial interiors across Canada, combining thoughtful space planning, premium materials and timeless design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

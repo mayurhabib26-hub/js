@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Manrope', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Luxury gold gradients & accents */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F4CA46 0%, #D9A514 50%, #C58A00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #F4CA46 0%, #D9A514 50%, #C58A00 100%);
+}
+
+.border-gold-glow {
+  box-shadow: 0 0 20px -5px rgba(217, 165, 20, 0.25);
+}
+
+/* Custom smooth luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+::-webkit-scrollbar-thumb {
+  background: #2D1B0E;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D9A514;
+}
+
+.clip-hero {
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+}
